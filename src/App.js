@@ -1,17 +1,15 @@
-
+import Nav from './components/Nav';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit something and save to reload.
-        </p>
-        
-      </header>
+const App = (props) =>{
+    return (
+    <div>
+        <Nav />
     </div>
-  );
+    )
+    
 }
+
+
 
 export default App;
